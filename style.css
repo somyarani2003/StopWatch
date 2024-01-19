@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(32, 23, 23);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* width: 100px; */
+    flex-direction: column;
+}
+
+#stopwatch {
+    font-size: 100px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    border-radius: 1000px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: white;
+}
+
+#buttons {
+    display: flex;
+}
+
+button {
+    padding: 20px;
+    background-color: rgb(59, 43, 32);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    margin: 10px;
+    width: 100px;
+    box-shadow: 5px 5px 1px rgba(56, 51, 51, 0.5);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(54, 35, 35);
+    color: #000;
+}
+
+button:active {
+    box-shadow: none;
+    transition: all 0.5s;
+}
